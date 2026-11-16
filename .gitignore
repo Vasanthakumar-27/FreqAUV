@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Environment secrets
+.env
+!.env.example
+
+# Node
+node_modules/
+
+# Scala / SBT
+**/target/
+.metals/
+.bloop/
+.bsp/
+
+# Generated files
+*.class
+*.jar
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
